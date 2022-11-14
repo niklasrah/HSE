@@ -1781,7 +1781,7 @@
 <part name="R3" library="89S52mini" deviceset="R-10" device="" value="10k"/>
 <part name="U$4" library="89S52mini" deviceset="GND" device=""/>
 <part name="X4" library="89S52mini" deviceset="J1X3" device=""/>
-<part name="AT89S52" library="89S52mini" deviceset="AT89S52" device="" value="AT89S52"/>
+<part name="AT89S52" library="89S52mini" deviceset="AT89S52" device=""/>
 <part name="C4" library="89S52mini" deviceset="C-2,5" device="" value="100n"/>
 <part name="C5" library="89S52mini" deviceset="ELKO-2,5" device="" value="10u"/>
 <part name="X5" library="89S52mini" deviceset="PWRCON-HEBW21" device=""/>

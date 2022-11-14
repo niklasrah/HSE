@@ -1866,8 +1866,8 @@
 <instance part="U$16" gate="G$1" x="195.58" y="-10.16" rot="R90"/>
 <instance part="RAM" gate="G$1" x="220.98" y="-5.08"/>
 <instance part="ADRDEC" gate="G$1" x="180.34" y="-68.58"/>
-<instance part="U$17" gate="G$1" x="198.12" y="-78.74" rot="R270"/>
-<instance part="U$18" gate="G$1" x="198.12" y="-81.28" rot="R90"/>
+<instance part="U$17" gate="G$1" x="200.66" y="-78.74" rot="R270"/>
+<instance part="U$18" gate="G$1" x="200.66" y="-81.28" rot="R90"/>
 <instance part="LED" gate="G$1" x="274.32" y="2.54"/>
 <instance part="U$19" gate="G$1" x="284.48" y="15.24" rot="R90"/>
 <instance part="U$20" gate="G$1" x="241.3" y="-25.4" rot="R270"/>
@@ -1878,7 +1878,7 @@
 <instance part="C2" gate="G$1" x="193.04" y="-15.24" rot="R90"/>
 <instance part="C8" gate="G$1" x="147.32" y="30.48" rot="R90"/>
 <instance part="C9" gate="G$1" x="238.76" y="-33.02" rot="R90"/>
-<instance part="C10" gate="G$1" x="195.58" y="-86.36" rot="R90"/>
+<instance part="C10" gate="G$1" x="198.12" y="-86.36" rot="R90"/>
 </instances>
 <busses>
 <bus name="2PORT[8..15]">
@@ -2002,11 +2002,11 @@
 <segment>
 <pinref part="ADRDEC" gate="G$1" pin="GND"/>
 <pinref part="U$18" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="-81.28" x2="195.58" y2="-81.28" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-81.28" x2="195.58" y2="-81.28" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="-88.9" x2="198.12" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-88.9" x2="198.12" y2="-81.28" width="0.1524" layer="91"/>
-<junction x="198.12" y="-81.28"/>
+<wire x1="198.12" y1="-88.9" x2="200.66" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-88.9" x2="200.66" y2="-81.28" width="0.1524" layer="91"/>
+<junction x="200.66" y="-81.28"/>
 </segment>
 <segment>
 <pinref part="LED" gate="G$1" pin="19"/>
@@ -2104,10 +2104,11 @@
 <segment>
 <pinref part="U$17" gate="G$1" pin="+5V"/>
 <pinref part="ADRDEC" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="-78.74" x2="195.58" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-78.74" x2="198.12" y2="-78.74" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="195.58" y1="-78.74" x2="195.58" y2="-83.82" width="0.1524" layer="91"/>
-<junction x="195.58" y="-78.74"/>
+<wire x1="198.12" y1="-78.74" x2="195.58" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-78.74" x2="198.12" y2="-83.82" width="0.1524" layer="91"/>
+<junction x="198.12" y="-78.74"/>
 </segment>
 <segment>
 <pinref part="U$20" gate="G$1" pin="+5V"/>
