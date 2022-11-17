@@ -2752,20 +2752,22 @@
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="ADRDEC" gate="G$1" pin="IOQ1"/>
-<wire x1="195.58" y1="-58.42" x2="261.62" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="-58.42" x2="261.62" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="LED" gate="G$1" pin="4"/>
 <wire x1="261.62" y1="-5.08" x2="266.7" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="-58.42" x2="200.66" y2="-58.42" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="-58.42" x2="200.66" y2="-63.5" width="0.1524" layer="91"/>
+<pinref part="ADRDEC" gate="G$1" pin="IOQ3"/>
+<wire x1="200.66" y1="-63.5" x2="195.58" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="ADRDEC" gate="G$1" pin="IOQ2"/>
-<wire x1="195.58" y1="-60.96" x2="264.16" y2="-60.96" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="-60.96" x2="264.16" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="LED" gate="G$1" pin="2"/>
 <wire x1="264.16" y1="-7.62" x2="266.7" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="ADRDEC" gate="G$1" pin="IOQ2"/>
+<wire x1="264.16" y1="-60.96" x2="195.58" y2="-60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">

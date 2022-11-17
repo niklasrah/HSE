@@ -1819,6 +1819,7 @@
 <part name="U$24" library="89S52mini" deviceset="GND" device=""/>
 <part name="C2" library="89S52mini" deviceset="C-2,5" device="" value="100n"/>
 <part name="C8" library="89S52mini" deviceset="C-2,5" device="" value="100n"/>
+<part name="C9" library="89S52mini" deviceset="C-2,5" device="" value="100n"/>
 </parts>
 <sheets>
 <sheet>
@@ -1875,6 +1876,7 @@
 <instance part="U$24" gate="G$1" x="162.56" y="-12.7"/>
 <instance part="C2" gate="G$1" x="190.5" y="-15.24" rot="R90"/>
 <instance part="C8" gate="G$1" x="147.32" y="27.94" rot="R90"/>
+<instance part="C9" gate="G$1" x="236.22" y="-33.02" rot="R90"/>
 </instances>
 <busses>
 <bus name="2PORT[8..15]">
@@ -2013,6 +2015,10 @@
 <pinref part="U$21" gate="G$1" pin="GND"/>
 <pinref part="RAM" gate="G$1" pin="GND"/>
 <wire x1="238.76" y1="-27.94" x2="236.22" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="-35.56" x2="238.76" y2="-35.56" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="-35.56" x2="238.76" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="238.76" y="-27.94"/>
 </segment>
 <segment>
 <pinref part="U$24" gate="G$1" pin="GND"/>
@@ -2097,6 +2103,9 @@
 <pinref part="U$20" gate="G$1" pin="+5V"/>
 <pinref part="RAM" gate="G$1" pin="VCC"/>
 <wire x1="238.76" y1="-25.4" x2="236.22" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="236.22" y1="-25.4" x2="236.22" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="236.22" y="-25.4"/>
 </segment>
 <segment>
 <pinref part="U$22" gate="G$1" pin="+5V"/>
