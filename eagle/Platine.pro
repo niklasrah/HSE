@@ -1,27 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : N:/MO-A1/Platine.brd
+Job           : C:/Users/Niklas/Documents/GitHub/HSE/eagle/Platine.brd
 
-Start at      : 11:26:05 (07.11.2022)
-End at        : 11:27:08 (07.11.2022)
-Elapsed time  : 00:01:03
+Start at      : 13:44:15 (19.11.2022)
+End at        : 13:44:25 (19.11.2022)
+Elapsed time  : 00:00:08
 
-Signals       :    55   RoutingGrid: 50 mil  Layers: 2
-Connections   :   128   predefined:  0 ( 0 Vias )
+Signals       :    55   RoutingGrid: 12 mil  Layers: 1
+Connections   :   128   predefined:  115 ( 20 Vias )
 
-Router memory :   32092
+Router memory :   189504
 
-Job has been interrupted!
+Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Passname          :    Busses     Route
+Time per pass     :  00:00:04  00:00:04  00:00:00  00:00:00  00:00:00  00:00:00
+Number of Ripups  :         0       403         0         0         0         0
+max. Level        :         0         4         0         0         0         0
+max. Total        :         0         7         0         0         0         0
 
-Time per pass     :  00:00:00  00:01:03
-Number of Ripups  :         0       957
-max. Level        :         0         5
-max. Total        :         0        47
+Routed            :         5        10        10        10        10        10
+Vias              :         0         0         0         0         0         0
+Resolution        :    93.8 %    97.7 %    97.7 %    97.7 %    97.7 %    97.7 %
 
-Routed            :        19       118
-Vias              :         0       362
-Resolution        :    14.8 %    92.2 %
-
-Final             : abgebrochen
+Final             : 97.7% beendet
